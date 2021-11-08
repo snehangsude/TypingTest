@@ -29,7 +29,7 @@ class TypingUI:
         self.brain = TypeBrain()
         self.window = Tk()
         self.window.title('Typing Speed Test')
-        self.window.iconbitmap('icon.ico')
+        self.window.iconbitmap('images/icon.ico')
         self.window.config(bg=THEME, padx=20, pady=20)
 
         self.score = Label(text=f"High Score: {self.brain.score}", bg=THEME, font=('Copperplate Gothic Bold', 15, "bold"), fg='#FF5151')
@@ -49,11 +49,11 @@ class TypingUI:
         self.user_input.focus()
         self.user_input.grid(row=4, column=1, columnspan=3, pady=10)
 
-        start_icon = PhotoImage(file='power.png')
+        start_icon = PhotoImage(file='images/power.png')
         self.start_button = Button(text="", image=start_icon, compound='top', bg=THEME, bd=0, command=self.start)
         self.start_button.grid(row=5, column=1, pady=2)
 
-        reset_icon = PhotoImage(file='reset.png')
+        reset_icon = PhotoImage(file='images/reset.png')
         self.reset_button = Button(text="", image=reset_icon, compound='top', bg=THEME, bd=0, command=self.reset,
                                    state='disabled')
         self.reset_button.grid(row=5, column=3, pady=2)

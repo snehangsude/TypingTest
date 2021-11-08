@@ -5,7 +5,7 @@ import time
 
 FONT = '#DBF6E9'
 THEME = '#0E2431'
-SECONDS = 60
+SECONDS = 61
 
 
 class TypingUI:

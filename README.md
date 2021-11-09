@@ -1,3 +1,7 @@
+[![GitHub license](https://img.shields.io/github/license/snehangsude/TypingTest?style=plastic)](https://github.com/snehangsude/TypingTest)
+![GitHub repo size](https://img.shields.io/github/repo-size/snehangsude/TypingTest)
+![GitHub watchers](https://img.shields.io/github/watchers/snehangsude/TypingTest?style=social)
+
 # TypingTest
 GUI application - Test you typing speed based on the random text 
 
